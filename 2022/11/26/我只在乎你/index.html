@@ -525,55 +525,6 @@
                 
                     <!-- # Comment # -->
                     
-                        <div class="card-footer post-comment">
-                            <div id="disqus_thread"></div>
-
-<div class="btn_click_load"> 
-    <button id="disqus_click_btn" class="btn">Read the comment (Make sure that disqus can load properly)</button>
-</div>
-
-<script>
-    var disqus_config = function () {
-        this.page.url = 'http://example.com/2022/11/26/%E6%88%91%E5%8F%AA%E5%9C%A8%E4%B9%8E%E4%BD%A0/'; // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = 'http://example.com/2022/11/26/%E6%88%91%E5%8F%AA%E5%9C%A8%E4%B9%8E%E4%BD%A0/'; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-</script>
-
-<script id="disqus-lazy-load-script">
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://disqus.com/next/config.json', true);
-    xhr.timeout = 4000;
-    xhr.send();
-    xhr.onload = function() {
-        if(this.status == 200||this.status == 304){
-            var d = document;
-            var s = d.createElement('script');
-            s.src = '//lostemotion.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', + new Date());
-            (d.head || d.body).appendChild(s);
-            document.getElementById('disqus_click_btn').setAttribute("style", "display:none")
-        }
-    };
-    xhr.ontimeout = function(e) {
-        document.getElementById('disqus_click_btn').setAttribute("style", "display:block");
-    };
-    xhr.onerror = function(e) {
-        document.getElementById('disqus_click_btn').setAttribute("style", "display:block");
-    };
-    document.getElementById('disqus_click_btn').onclick=function() { //click to load comments
-        (function() { // DON'T EDIT BELOW THIS LINE
-            var d = document;
-            var s = d.createElement('script');
-            s.src = '//lostemotion.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', + new Date());
-            (d.head || d.body).appendChild(s);
-        })();
-        document.getElementById('disqus_click_btn').setAttribute("style", "display:none")
-    };
-</script>
-
-                        </div>
-                    
                 
             </div>
         </div>
@@ -651,10 +602,6 @@ console.log('\n %c Suka Theme (hexo-theme-suka) | © SukkaW | Verision 1.3.3 %c 
 
 
 <!-- Comment -->
-
-    
-        
-    
 
 
 <!-- ### Custom Footer ### -->
