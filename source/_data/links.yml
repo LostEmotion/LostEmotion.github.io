@@ -1,8 +1,8 @@
 "录播站零号机":
     url: https://heimao.bilirecord.icu/
-    img: ./links0.png
+    img: https://raw.githubusercontent.com/LostEmotion/LostEmotion.github.io/source/source/_data/links0.png
     text: "Sponsored by 6B不止铅笔"
 "录播站一号机":
-    url: https://one.taokyla.com/zh-CN/
-    img: ./links1.png
+    url: https://one.taokyla.com/zh-CN/bilibilirecord/
+    img: https://raw.githubusercontent.com/LostEmotion/LostEmotion.github.io/source/source/_data/links1.png
     text: "Sponsored by 贝壳从不改名"
