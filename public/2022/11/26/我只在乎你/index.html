@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <!--
+        hexo-theme-suka © SukkaW
+        GitHub: https://github.com/SukkaW/hexo-theme-suka
+    -->
+
+    <!-- ### Resource Hint ### -->
+
+    <!-- ## DNS Prefetch ## -->
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+
+<!-- busuanzi -->
+
+    <link rel="dns-prefetch" href="//busuanzi.ibruce.info">
+
+
+<!-- comment -->
+
+
+
+
+
+
+
+<!-- analytics -->
+
+
+
+
+
+
+
+    <!-- ## Preload ## -->
+    
+    <!-- Busuanzi -->
+    
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" as="script">
+
+
+
+
+
+
+
+    <!-- ### Meta & Title & Info ### -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+    <meta name="renderer" content="webkit">
+
+    <!-- Title -->
+    <title>我只在乎你 by 邓丽君 | Meow! =&gt;w&lt;=</title>
+
+    <!-- Favicons -->
+    <link rel="icon" type="image&#x2F;ico" href="/img/suka-favicon.ico">
+
+    <!-- ### Import File ### -->
+    <link rel="stylesheet" href="/lib/spectre/spectre.min.css"><style>
+    body {
+        background-color: #f8f9fa;
+    }
+
+    a, a:visited {
+        color: #0070ff;
+    }
+
+    a:active, a:focus, a:hover {
+        color: #0070ff;
+        opacity: .75;
+    }
+
+    #post-content a,
+    #post-content a:hover,
+    #post-content a:focus,
+    #post-content a:visited {
+        color: #005eb9;
+        opacity: 1;
+    }
+
+    
+
+    .post-entry .card-body a {
+        color: #0070ff;
+    }
+
+    .avatar {
+        background: #444;
+    }
+
+    .navbar-link,
+    .navbar-link:visited,
+    .timeline .timeline-item .timeline-icon.icon-lg {
+        color: #0070ff;
+    }
+
+    .navbar-link:hover {
+        color: #0070ff;
+        opacity: .8;
+    }
+
+    #search-input .btn,
+    #disqus_click_btn,
+    #disqus-switch-to-direct,
+    #disqus-loadmore-button {
+        background: #727e96;
+        border-color: #727e96;
+        color: #fff;
+    }
+
+    #post-toc a.post-toc-link,
+    #post-toc a.post-toc-link:visited,
+    .share-menu.menu .menu-item>a {
+        color: #727e96;
+    }
+
+    .share-menu.menu .menu-item>a:hover,
+    .share-menu.menu .menu-item>a:focus,
+    .share-menu.menu .menu-item>a:visited {
+        color: #50596c;
+        background: #f8f9fa;
+        opacity: .85;
+    }
+</style><link rel="stylesheet" href="/css/style.min.css">
+
+
+
+
+
+
+
+
+    <!-- Prettify Theme -->
+    
+    <link rel="preload" href="/css/highlight/github.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/css/highlight/github.min.css"></noscript>
+
+
+
+
+
+<script>
+/*! loadCSS. [c]2017 Filament Group, Inc. MIT License */
+!function(t){"use strict";t.loadCSS||(t.loadCSS=function(){});var e=loadCSS.relpreload={};if(e.support=function(){var e;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){e=!1}return function(){return e}}(),e.bindMediaToggle=function(t){var e=t.media||"all";function a(){t.addEventListener?t.removeEventListener("load",a):t.attachEvent&&t.detachEvent("onload",a),t.setAttribute("onload",null),t.media=e}t.addEventListener?t.addEventListener("load",a):t.attachEvent&&t.attachEvent("onload",a),setTimeout(function(){t.rel="stylesheet",t.media="only x"}),setTimeout(a,3e3)},e.poly=function(){if(!e.support())for(var a=t.document.getElementsByTagName("link"),n=0;n<a.length;n++){var o=a[n];"preload"!==o.rel||"style"!==o.getAttribute("as")||o.getAttribute("data-loadcss")||(o.setAttribute("data-loadcss",!0),e.bindMediaToggle(o))}},!e.support()){e.poly();var a=t.setInterval(e.poly,500);t.addEventListener?t.addEventListener("load",function(){e.poly(),t.clearInterval(a)}):t.attachEvent&&t.attachEvent("onload",function(){e.poly(),t.clearInterval(a)})}"undefined"!=typeof exports?exports.loadCSS=loadCSS:t.loadCSS=loadCSS}("undefined"!=typeof global?global:this);
+</script>
+
+    <!-- ### Site Verification ### -->
+    
+
+
+    <meta name="mobile-web-app-capable" content="yes"><meta name="application-name" content="Meow! =>w<="><meta name="msapplication-starturl" content="http://example.com"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="Meow! =>w<="><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- ### The Open Graph & Twitter Card Protocol ### -->
+    <meta property="og:title" content="我只在乎你 by 邓丽君 | Meow! &#x3D;&gt;w&lt;&#x3D;"><meta property="og:site_name" content="Meow! &#x3D;&gt;w&lt;&#x3D;"><meta property="og:type" content="article"><meta property="og:url" content="http://example.com/2022/11/26/%E6%88%91%E5%8F%AA%E5%9C%A8%E4%B9%8E%E4%BD%A0/"><meta property="og:locale" content="en"><meta name="description" content="如果没有遇见你~~~ 我将会是在哪里~~~ 日子过得怎么样~~~ 人生是否要珍惜 也许认识某一人~~~ 过着平凡的日子~~~ 不知道会不会~~~ 也有爱情甜如蜜-~~ 任时光匆匆流去 我只在乎你~~~ 心甘情愿感染你的气息~~~ 人生几何 能够得到知己~~~ 失去生命的力量也不可惜 所以我求求你~~~ 别让我离开你~~~ 除了你我不能感到一丝丝情意~~~ 如果有那么一天~~~ 你说即将要离去~~~ - J_swl - Meow! &#x3D;&gt;w&lt;&#x3D;"><meta property="article:published_time" content="2022-11-26T03:20:48.642Z"><meta property="article:modified_time" content="2022-11-17T13:22:13.000Z"><meta property="og:updated_time" content="2022-11-17T13:22:13.000Z"><meta property="article:author" content="J_swl"><meta name="twitter:card" content="summary">
+
+    
+
+    <!-- ### Canonical link ### -->
+    <link rel="canonical" href="http://example.com/2022/11/26/%E6%88%91%E5%8F%AA%E5%9C%A8%E4%B9%8E%E4%BD%A0/">
+
+    <meta name="generator" content="Hexo 6.3.0">
+
+    <!-- ### Analytics ### -->
+    
+
+
+
+
+
+
+
+    <!-- ### Structured Data ### -->
+    
+
+
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "url": "http://example.com/2022/11/26/%E6%88%91%E5%8F%AA%E5%9C%A8%E4%B9%8E%E4%BD%A0/",
+    "@type": "BlogPosting",
+    "logo": "http://example.com/img/suka-favicon.ico",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://example.com/2022/11/26/%E6%88%91%E5%8F%AA%E5%9C%A8%E4%B9%8E%E4%BD%A0/"
+    },
+    "headline": "我只在乎你 by 邓丽君 | Meow! =&gt;w&lt;=",
+    
+    "image": {
+        "@type": "ImageObject",
+        "url": "http://example.com/img/suka-favicon.ico"
+    },
+    
+    "datePublished": "2022-11-26T03:20:48.642Z",
+    "dateModified": "2022-11-17T13:22:13.000Z",
+    "author": {
+        "@type": "Person",
+        "name": "J_swl",
+        "image": {
+            "@type": "ImageObject",
+            "url": "http://example.com/img/default_avatar.png"
+        },
+        "description": "别骂了在学了呜呜 T^T"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Meow! =&gt;w&lt;=",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "http://example.com/img/suka-favicon.ico"
+        }
+    },
+    
+    "potentialAction": {
+        "@type": "SearchAction",
+        "target": "http://example.com/search?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+    },
+    
+    "keywords": "",
+    "description": "如果没有遇见你~~~ 我将会是在哪里~~~ 日子过得怎么样~~~ 人生是否要珍惜 也许认识某一人~~~ 过着平凡的日子~~~ 不知道会不会~~~ 也有爱情甜如蜜-~~ 任时光匆匆流去 我只在乎你~~~ 心甘情愿感染你的气息~~~ 人生几何 能够得到知己~~~ 失去生命的力量也不可惜 所以我求求你~~~ 别让我离开你~~~ 除了你我不能感到一丝丝情意~~~ 如果有那么一天~~~ 你说即将要离去~~~ - J_swl - Meow! =&gt;w&lt;="
+}
+</script>
+
+
+
+    <!-- ### Custom Head ### -->
+    
+</head>
+
+    <body>
+            
+
+            <!-- ### Main content ### -->
+            <!-- ## Header ##-->
+<header>
+    <h1 class="header-title text-center"><a href="/">Meow! =&gt;w&lt;=</a></h1>
+
+    <p class="text-center header-slogan">
+        
+            
+                别骂了在学了呜呜 T^T
+            
+        
+    </p>
+
+    <nav class="navbar-section text-center">
+    
+        <a href="/" class="navbar-link">Home</a>
+    
+    
+        <a href="/archives/" class="navbar-link">Archives</a>
+    
+    
+        <a href="/search" class="navbar-link">Search</a>
+    
+    
+    
+        <div class="dropdown dropdown-right">
+    <a class="navbar-link dropdown-toggle" tabindex="0">Share</a>
+    <ul class="menu share-menu">
+
+        <!-- Share Weibo -->
+        
+        <li class="menu-item">
+            <a href="http://service.weibo.com/share/share.php?appkey=&title=Meow! =>w<=&url=http://example.com&pic=http://example.com/img/suka-favicon.ico&searchPic=false&style=simple" target="_blank" rel="external noopener noreferrer nofollow">Share to Weibo</a>
+        </li>
+        
+
+        <!-- Share Twitter -->
+        
+        <li class="menu-item">
+            <a href="https://twitter.com/intent/tweet?text=Meow! =>w<=&url=http://example.com&via=J_swl" target="_blank" rel="external noopener noreferrer nofollow">Share to Twitter</a>
+        </li>
+        
+
+        <!-- Share Facebook -->
+        
+        <li class="menu-item">
+            <a href="https://www.facebook.com/sharer/sharer.php?u=http://example.com" target="_blank" rel="external noopener noreferrer nofollow">Share to Facebook</a>
+        </li>
+        
+
+        <!-- Share Google+ -->
+        
+        <li class="menu-item">
+            <a href="https://plus.google.com/share?url=http://example.com" target="_blank" rel="external noopener noreferrer nofollow">Share to Google+</a>
+        </li>
+        
+
+        <!-- Share LinkedIn -->
+        
+        <li class="menu-item">
+            <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://example.com&title=我只在乎你 by 邓丽君" target="_blank" rel="external noopener noreferrer nofollow">Share to LinkedIn</a>
+        </li>
+        
+
+        <!-- Share QQ -->
+        
+        <li class="menu-item">
+            <a href="http://connect.qq.com/widget/shareqq/index.html?site=Meow! =>w<=&title=我只在乎你 by 邓丽君&summary=&pics=http://example.com/img/suka-favicon.ico&url=http://example.com" target="_blank" rel="external noopener noreferrer nofollow"> Share to QQ</a>
+        </li>
+        
+
+        <!-- Share Telegram -->
+        
+        <li class="menu-item">
+            <a href="https://t.me/share/url?url=http://example.com&text=我只在乎你 by 邓丽君" target="_blank" rel="external noopener noreferrer nofollow">Share to Telegram</a>
+        </li>
+        
+
+        <!-- QRCode -->
+        
+        <li class="menu-item">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAAAAAA83tqdAAACK0lEQVR42u2aQW7DMAwE/f9Pp6cCQWBxh6qDJubokiJ2pFFh0qslj8cXjENIIYUU8gMgj2L8Xn/+fP5N+v3ZPXRdIWdDnj60iwVWf1dznW02rSukkDRgyOZer60Cp1pXSCHLmxff46S8gBNSyN3AqQKmEg1VEhdSyF2BQcVGZ47LVZCQt4PsHMSu/HzbaVHIr4ZExtFiEiJ0qxfDpa6akLeBJCZSEgJprmpDpakl5EjIyoQiD3w6gCVBUgWlkDMhk7mUknQyWTsiAytzIW8NSczRlMAr4VEl7ZT8hZwJSY2q1WKVcFglb1owEHI2JJm4E2RJfCQRLORcSGoixcQL7k1Bh944Qt4ekhoAKQCS8OiYEELOhiQmwa45eoBRGrFCjoXcSbTdJjy6cSGFpEbATpInsGUDn5AjIVMDHBG53WChzctCzoSkUB1znxaWonEg5FjIBEzN/a6IjteFHA3ZMZm6B7C04WViF3IkJG3w3C2SJhHdFr1CjoVcBUw6RMWFO4UtIcdCkqTeERPJcE2CRUghKxHRSeqdRjzSBCXkXMjOQYs++GVA7FRphRwJ+ZcCERUT1KwSci7kbsNHeuhpYJYvByFHQpKDGBEMpBiVTKq2YSXkbSFJ0wcRDlRMpIOfkELuJO3UxEkKBrEhWUghYRIn5gFtaCrnFVJI0DRHGkcocBTBQo6GTEV6eriiYKkhT8jZkJ2DGFmYFOHJP0TImZCfPIQUUkgh/3H8AH9+lrWqCaBTAAAAAElFTkSuQmCC" alr="QRCode">
+        </li>
+        
+
+    </ul>
+</div>
+    
+    
+</nav>
+</header>
+
+            
+    <!-- ## Post ## -->
+    <div class="post-container">
+    <div id="post-card" class="card">
+        
+        <div class="card-item-container">
+            <div class="card-inner-cell">
+                <!-- # Post Header Info # -->
+                <div class="card-header">
+                    
+    <h1 class="card-title h3 mb-2">我只在乎你 by 邓丽君</h1>
+
+
+
+
+<div class="post-header-info">
+    <p class="post-header-info-left text-gray">
+        <img class="author-thumb lazyload" data-src="/img/default_avatar.png" src="/img/suka-lazyload.gif" alt="J_swl's Avatar">
+        <span>2022-11-26</span>
+        
+        
+            <!-- Busuanzi Post Views -->
+<span id="busuanzi_container_page_pv" hidden>
+    <span class="suka-devide-dot"></span>
+    <span></span>
+    <span id="busuanzi_value_page_pv"></span>
+    <span>Views</span>
+</span>
+        
+        
+    </p>
+    <div class="post-header-info-right">
+        
+            <div class="dropdown dropdown-right">
+<a class="dropdown-toggle" tabindex="0">Share the post</a>
+<ul class="menu share-menu">
+    <!-- Share Weibo -->
+    
+    <li class="menu-item">
+        <a href="http://service.weibo.com/share/share.php?appkey=&title=我只在乎你 by 邓丽君&url=http://example.com/2022/11/26/%E6%88%91%E5%8F%AA%E5%9C%A8%E4%B9%8E%E4%BD%A0/&pic=http://example.com/img/suka-favicon.ico&searchPic=false&style=simple" target="_blank" rel="external noopener noreferrer nofollow">Share to Weibo</a>
+    </li>
+    
+
+    <!-- Share Twitter -->
+    
+    <li class="menu-item">
+        <a href="https://twitter.com/intent/tweet?text=我只在乎你 by 邓丽君&url=http://example.com/2022/11/26/%E6%88%91%E5%8F%AA%E5%9C%A8%E4%B9%8E%E4%BD%A0/&via=J_swl" target="_blank" rel="external noopener noreferrer nofollow">Share to Twitter</a>
+    </li>
+    
+
+    <!-- Share Facebook -->
+    
+    <li class="menu-item">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=http://example.com/2022/11/26/%E6%88%91%E5%8F%AA%E5%9C%A8%E4%B9%8E%E4%BD%A0/" target="_blank" rel="external noopener noreferrer nofollow">Share to Facebook</a>
+    </li>
+    
+
+    <!-- Share Google+ -->
+    
+    <li class="menu-item">
+        <a href="https://plus.google.com/share?url=http://example.com/2022/11/26/%E6%88%91%E5%8F%AA%E5%9C%A8%E4%B9%8E%E4%BD%A0/" target="_blank" rel="external noopener noreferrer nofollow">Share to Google+</a>
+    </li>
+    
+
+    <!-- Share LinkedIn -->
+    
+    <li class="menu-item">
+        <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://example.com/2022/11/26/%E6%88%91%E5%8F%AA%E5%9C%A8%E4%B9%8E%E4%BD%A0/&title=Meow! =>w<=" target="_blank" rel="external noopener noreferrer nofollow">Share to LinkedIn</a>
+    </li>
+    
+
+    <!-- Share QQ -->
+    
+    <li class="menu-item">
+        <a href="http://connect.qq.com/widget/shareqq/index.html?site=Meow! =>w<=&title=Meow! =>w<=&summary=&pics=http://example.com/img/suka-favicon.ico&url=http://example.com/2022/11/26/%E6%88%91%E5%8F%AA%E5%9C%A8%E4%B9%8E%E4%BD%A0/" target="_blank" rel="external noopener noreferrer nofollow"> Share to QQ</a>
+    </li>
+    
+
+    <!-- Share Telegram -->
+    
+    <li class="menu-item">
+        <a href="https://t.me/share/url?url=http://example.com/2022/11/26/%E6%88%91%E5%8F%AA%E5%9C%A8%E4%B9%8E%E4%BD%A0/&text=Meow! =>w<=" target="_blank" rel="external noopener noreferrer nofollow">Share to Telegram</a>
+    </li>
+    
+
+    <!-- QRCode -->
+    
+    <li class="menu-item">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKQAAACkCAAAAAA83tqdAAACK0lEQVR42u2aQW7DMAwE/f9Pp6cCQWBxh6qDJubokiJ2pFFh0qslj8cXjENIIYUU8gMgj2L8Xn/+fP5N+v3ZPXRdIWdDnj60iwVWf1dznW02rSukkDRgyOZer60Cp1pXSCHLmxff46S8gBNSyN3AqQKmEg1VEhdSyF2BQcVGZ47LVZCQt4PsHMSu/HzbaVHIr4ZExtFiEiJ0qxfDpa6akLeBJCZSEgJprmpDpakl5EjIyoQiD3w6gCVBUgWlkDMhk7mUknQyWTsiAytzIW8NSczRlMAr4VEl7ZT8hZwJSY2q1WKVcFglb1owEHI2JJm4E2RJfCQRLORcSGoixcQL7k1Bh944Qt4ekhoAKQCS8OiYEELOhiQmwa45eoBRGrFCjoXcSbTdJjy6cSGFpEbATpInsGUDn5AjIVMDHBG53WChzctCzoSkUB1znxaWonEg5FjIBEzN/a6IjteFHA3ZMZm6B7C04WViF3IkJG3w3C2SJhHdFr1CjoVcBUw6RMWFO4UtIcdCkqTeERPJcE2CRUghKxHRSeqdRjzSBCXkXMjOQYs++GVA7FRphRwJ+ZcCERUT1KwSci7kbsNHeuhpYJYvByFHQpKDGBEMpBiVTKq2YSXkbSFJ0wcRDlRMpIOfkELuJO3UxEkKBrEhWUghYRIn5gFtaCrnFVJI0DRHGkcocBTBQo6GTEV6eriiYKkhT8jZkJ2DGFmYFOHJP0TImZCfPIQUUkgh/3H8AH9+lrWqCaBTAAAAAElFTkSuQmCC" alt="QRCode">
+    </li>
+    
+
+</ul>
+</div>
+        
+    </div>
+</div>
+                </div>
+                <div class="card-body">
+                    
+                        
+                        
+                    
+                    <article id="post-content">
+                        <p>如果没有遇见<ruby>你<rt>~~~</rt></ruby></p>
+<p>我将会是在哪<ruby>里<rt>~~~</rt></ruby></p>
+<p>日子过得怎么<ruby>样<rt>~~~</rt></ruby></p>
+<p>人生是否要珍惜</p>
+<p>也许认识某一<ruby>人<rt>~~~</rt></ruby></p>
+<p>过着平凡的日<ruby>子<rt>~~~</rt></ruby></p>
+<p>不知道会不<ruby>会<rt>~~~</rt></ruby></p>
+<p>也有爱情甜如<ruby>蜜<rt>-~~</rt></ruby></p>
+<p>任时光匆匆流去 我只在乎<ruby>你<rt>~~~</rt></ruby></p>
+<p>心甘情愿感染你的气<ruby>息<rt>~~~</rt></ruby></p>
+<p>人生几何 能够得到知<ruby>己<rt>~~~</rt></ruby></p>
+<p>失去生命的力量也不可惜</p>
+<p>所以我求求<ruby>你<rt>~~~</rt></ruby> 别让我离开<ruby>你<rt>~~~</rt></ruby></p>
+<p>除了你我不能感到一丝丝情<ruby>意<rt>~~~</rt></ruby></p>
+<p>如果有那么一<ruby>天<rt>~~~</rt></ruby> 你说即将要离<ruby>去<rt>~~~</rt></ruby></p>
+<p>我会迷失我自<ruby>己<rt>~~~</rt></ruby></p>
+<p>走入无边人海里</p>
+<p>不要什么诺<ruby>言<rt>~~~</rt></ruby></p>
+<p>只要天天在一<ruby>起<rt>~~~</rt></ruby></p>
+<p>我不能只依<ruby>靠<rt>~~~</rt></ruby></p>
+<p>片片回忆活下<ruby>去<rt>-~~</rt></ruby></p>
+<p>任时光匆匆流去 我只在乎<ruby>你<rt>~~~</rt></ruby></p>
+<p>心甘情愿感染你的气<ruby>息<rt>~~~</rt></ruby></p>
+<p>人生几何能够得到知己</p>
+<p>失去生命的力量也不可惜</p>
+<p>所以我求求<ruby>你<rt>~~~</rt></ruby></p>
+<p>别让我离开<ruby>你<rt>~~~</rt></ruby></p>
+<p>除了你我不能感到一丝丝情<ruby>意<rt>~~~</rt></ruby></p>
+<p>任时光匆匆流去 我只在乎<ruby>你<rt>~~~</rt></ruby></p>
+<p>心甘情愿感染你的气<ruby>息<rt>~~~</rt></ruby></p>
+<p>人生几何能够得到知己</p>
+<p>失去生命的力量也不可惜</p>
+<p>所以我求求<ruby>你<rt>~~~</rt></ruby></p>
+<p>别让我离开<ruby>你<rt>~~~</rt></ruby></p>
+<p>除了你我不能感到一丝丝情<ruby>意<rt>-~~</rt></ruby></p>
+
+                    </article>
+                    
+
+
+    <blockquote id="date-expire-notification" class="post-expired-notify">This article was last updated on <span id="date-expire-num"></span> days ago, and the information described in the article may have changed.</blockquote>
+    <script>
+    (function() {
+        var dateUpdate = Date.parse("2022-11-17");
+        var nowDate = new Date();
+        var a = nowDate.getTime();
+        var b = a - dateUpdate;
+        var daysUpdateExpire = Math.floor(b/(24*3600*1000));
+        if (daysUpdateExpire >= 120) {
+            document.getElementById('date-expire-num').innerHTML = daysUpdateExpire;
+        } else {
+            document.getElementById('date-expire-notification').style.display = 'none';
+        }
+    })();
+    </script>
+
+
+<p class="post-footer-info mb-0 pt-0">Published at&nbsp;<time datetime="2022-11-26T03:20:48.642Z" itemprop="datePublished">2022-11-26</time>
+
+    , Updated at&nbsp;<time datetime="2022-11-17T13:22:13.000Z" itemprop="dateModified">2022-11-17</time>
+
+</p>
+<p class="post-footer-info mb-0 pt-2">
+
+
+
+
+</p>
+
+                </div>
+                <div class="post-nav px-2 bg-gray">
+<ul class="pagination">
+    <!-- Prev Nav -->
+    
+        <li class="page-item page-prev">
+            <a href="/2022/11/26/%E5%B8%B0%E3%82%8D%E3%81%86/" rel="prev">
+                <div class="page-item-title"><i class="icon icon-back" aria-hidden="true"></i></div>
+                <div class="page-item-subtitle">帰ろう by 藤井風</div>
+            </a>
+        </li>
+    
+
+    <!-- Next Nav -->
+    
+</ul>
+</div>
+
+                
+                    <!-- # Comment # -->
+                    
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+            <!-- ### Footer ### -->
+            <footer class="text-center">
+    <!-- footer copyright -->
+    
+        <p class="footer-copyright mb-0">Copyright&nbsp;©&nbsp;<span id="copyright-year"></span>
+            <a class="footer-copyright-a" href="http://example.com">Meow! =>w<=</a>
+        </p>
+
+    <!-- footer custom text -->
+    <p class="footer-text mb-0">
+    
+    </p>
+    <!-- footer develop info -->
+    <p class="footer-develop mb-0">
+        
+    <!-- Busuanzi User Views -->
+    <span id="busuanzi_container_site_uv" hidden>
+        <span></span>
+        <span id="busuanzi_value_site_uv"></span>
+        <span>Viewers</span>
+        
+            <span>|</span>
+        
+    </span>
+
+
+
+
+        
+        Powered by&nbsp;<!--
+         --><a href="https://hexo.io" target="_blank" class="footer-develop-a" rel="external nofollow noopener noreferrer">Hexo</a><span class="footer-develop-divider"></span>Theme&nbsp;-&nbsp;<!--
+         --><a href="https://github.com/SukkaW/hexo-theme-suka" target="_blank" class="footer-develop-a" rel="external noopener">Suka</a>
+    </p>
+</footer>
+
+
+        <!-- ### Import File ### -->
+        <!-- ### Footer JS Import ### -->
+
+<script>
+
+    
+window.lazyLoadOptions = {
+    elements_selector: ".lazyload",
+    threshold: 50
+};
+document.getElementById('copyright-year').textContent = new Date().getFullYear();
+console.log('\n %c Suka Theme (hexo-theme-suka) | © SukkaW | Verision 1.3.3 %c https://github.com/SukkaW/hexo-theme-suka \n', 'color: #fff; background: #444; padding:5px 0;', 'background: #bbb; padding:5px 0;');
+
+</script>
+
+<script src="/lib/vanilla-lazyload/lazyload.min.js" async></script>
+    <script src="https://cdn.jsdelivr.net/npm/busuanzi@2.3.0/bsz.pure.mini.js" async></script>
+
+
+<!-- Offset -->
+
+
+
+
+<!-- Comment -->
+
+
+<!-- ### Custom Footer ### -->
+
+    </body>
+
+</html>
